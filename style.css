@@ -1,0 +1,157 @@
+/*Universal*/
+/* Page */
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header{
+    min-height: 50px;
+}
+
+main{
+    flex: 1;
+}
+footer{
+margin-top: 2em;
+min-height: 50px;
+}
+
+
+/*Index*/
+/*Do as grid?*/
+
+/*Nav*/
+.navbar{
+    display: flex;
+    /* justify-content: right; */
+    align-items: center;
+    height: 2em;
+    width: 100%;
+    background-color: black;
+    /* background-color: transparent; */
+    letter-spacing: 0.1em;
+    /* position: fixed; */
+    padding: 30px;
+    }
+
+    .nav-item{
+        padding: 1em;
+        color: #00ab44;
+    }
+
+    .nav-item-right{
+        margin: 0.5em;
+    }
+
+    .navbar-left{
+        float: left;
+        font-size: 30px;
+        margin-left: 0px;
+        font-size: 1.5em;
+    }
+
+    .navbar-right{
+        display: flex;
+        float: right;
+        padding: 10px;
+        margin-left: 30em;
+        margin-right: 0.5em;
+        margin-top: 2.5em;
+    }
+
+    .nav-link{
+        text-decoration: none;
+    }
+    .nav-link:hover {
+        color: #69b5e7 !important;
+        text-decoration: underline !important;
+    }
+    
+    
+    .nav>li{
+        list-style: none;
+    }
+
+    
+/*Index*/
+
+/*Main Img Logo*/
+
+.main-img{
+
+    height: 18em;
+    width: 18em;
+    border-radius: 50%;
+    margin-top: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.paragraph {
+    clear: right;
+}
+
+/*Portfolio*/
+
+.portfolio-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 350px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+
+}
+.portfolio-title{
+    display: block;
+    font-size: 3vw;
+    color: black;
+    font-family: 'Ariel', serif;
+    letter-spacing: 2px;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    justify-content: center;
+
+}
+
+/*Contact*/
+.contact-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+input, textarea, keygen, select, button {
+    margin-top: 0em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: system-ui;
+    font-variant-caps: normal;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    }
+
+input, textarea, keygen, select, button, meter, progress {
+    writing-mode: horizontal-tb;
+    }
