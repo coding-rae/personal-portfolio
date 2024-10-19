@@ -40,7 +40,7 @@ min-height: 50px;
 
     .nav-item{
         padding: 1em;
-        color: #00ab44;
+        color: white;
     }
 
     .nav-item-right{
@@ -51,7 +51,7 @@ min-height: 50px;
         float: left;
         font-size: 30px;
         margin-left: 0px;
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     .navbar-right{
@@ -65,6 +65,7 @@ min-height: 50px;
 
     .nav-link{
         text-decoration: none;
+        color: white;
     }
     .nav-link:hover {
         color: #69b5e7 !important;
@@ -79,19 +80,35 @@ min-height: 50px;
     
 /*Index*/
 
+.main-paragraph{
+    margin: 5em;
+}
+.href-icons{
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+
+/*Profile Pic Img*/
+.profile-img{
+    margin-top: 3em;
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+}
+
 /*Main Img Logo*/
+.logo-img{
 
-.main-img{
-
-    height: 18em;
-    width: 18em;
+    height: 12em;
+    width: 12em;
     border-radius: 50%;
     margin-top: 5em;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
+
 
 .paragraph {
     clear: right;
