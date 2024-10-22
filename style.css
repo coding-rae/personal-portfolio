@@ -21,6 +21,10 @@ margin-top: 2em;
 min-height: 50px;
 }
 
+/* .container{
+    display: flex
+} */
+
 .text-center{
     text-align: center;
 }
@@ -34,12 +38,13 @@ min-height: 50px;
     /* justify-content: right; */
     align-items: center;
     height: 2em;
+    line-height: 2em;
     background-color: black;
     /* background-color: transparent; */
     letter-spacing: 0.1em;
     /* position: fixed; */
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 30px; 
     }
 
     .nav-container{
@@ -47,19 +52,20 @@ min-height: 50px;
     }
 
     .nav-item{
-        padding: 1em;
+        padding: 1em 0em;
         color: white;
+        
     }
 
     .nav-item-right{
         margin: 0.5em;
+        font-size: 1.3em;
     }
 
     .navbar-left{
         float: left;
-        font-size: 30px;
         /* margin-left: 0px; */
-        font-size: 1.4em;
+        font-size: 1.8em;
     }
 
     .navbar-right{
@@ -75,6 +81,8 @@ min-height: 50px;
         text-decoration: none;
         color: white;
     }
+
+  
     .nav-link:hover {
         color: #69b5e7 !important;
         text-decoration: underline !important;
@@ -95,16 +103,20 @@ min-height: 50px;
 /*---> Index <---*/
 
 .main-paragraph{
-    margin: 3em;
+    margin: 2em;
+    font-size: 1.5em;
 }
-.href-icons{
+.href-icons-div{
     margin-top: 2em;
     margin-bottom: 5em;
     padding: 0.5em;
 }
 
+.href-icons{
+    padding: 1em;
+}
 .skill-div{
-    margin: 3em;
+    margin: 2em;
 }
 
 .skill-icon{
@@ -120,6 +132,7 @@ min-height: 50px;
     height: 20em;
     width: 20em;
     border-radius: 50%;
+    border-style: solid;
 }
 
 /*Main Img Logo*/
